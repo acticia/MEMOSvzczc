@@ -1,3 +1,5 @@
 # COPY AND PASTE THE FOLLOWING COMMAND UNDER XEN COMMAND LINE INTERFACE :
 
--- quiet console=hvc0 auto=true debian-installer/language=en debian-installer/country=FR debian-installer/locale=en_US.UTF-8 keyboard-configuration/xkb-keymap=fr netcfg/disable_autoconfig=true netcfg/get_ipaddress=192.168.0.56 netcfg/get_netmask=255.255.255.0 netcfg/get_gateway=192.168.0.254 netcfg/get_nameservers=192.168.0.254 netcfg/confirm_static=true netcfg/hostname=lavoisier preseed/url=https://raw.githubusercontent.com/acticia/MEMOS/master/XEN-ONLINE-CREATE/common/main.cfg
+-- quiet console=hvc0 debian-installer/language=en debian-installer/country=FR debian-installer/locale=en_US.UTF-8 keyboard-configuration/xkb-keymap=fr netcfg/disable_autoconfig=true netcfg/get_ipaddress=192.168.0.56 netcfg/get_netmask=255.255.255.0 netcfg/get_gateway=192.168.0.254 netcfg/get_nameservers=192.168.0.254 netcfg/confirm_static=true netcfg/hostname=lavoisier netcfg/domain=acticia.net
+
+-- quiet console=hvc0 debian-installer/language=en debian-installer/country=FR debian-installer/locale=en_US.UTF-8 keyboard-configuration/xkb-keymap=fr netcfg/disable_autoconfig=true netcfg/get_ipaddress=192.168.0.56 netcfg/get_netmask=255.255.255.0 netcfg/get_gateway=192.168.0.254 netcfg/get_nameservers=192.168.0.254 netcfg/confirm_static=true netcfg/get_hostname=lavoisier netcfg/get_domain=acticia.net
