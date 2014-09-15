@@ -1,6 +1,6 @@
 #!/bin/bash
 # ONE LINER CALL :
-# wget --user=NAME --password=PASS http://laplace.acticia.net:8080/share/scripts/sh/vm/build/common.sh ;  chmod u+x common.sh ;  ./common.sh
+# wget ;  chmod u+x patchv0.1.sh ;  ./patchv0.1.sh
 /usr/bin/clear
 /usr/bin/dpkg --configure -a
 /bin/mkdir -p /var/log/acticia/patch/common
