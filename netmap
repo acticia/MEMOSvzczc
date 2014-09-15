@@ -24,7 +24,7 @@ BRESSE wan= lan=192.168.0.254 { TCP_SERVICES {}; UDP_SERVICES {}; TCP_NATPF {22:
     LECHATELIER lan=192.168.0.92 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
     BERTHIER lan=192.168.0.94 { TCP_SERVICES { }; UDP_SERVICES {}} # Minéralogiste
     BARRAL lan=192.168.0.96 { TCP_SERVICES { }; UDP_SERVICES {}} # Agronome Chimiste Physicien
-    DEDION lan=192.168.0.98 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
+    DEDION lan=192.168.0.98 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur ##2014/09/15
 
 
 
