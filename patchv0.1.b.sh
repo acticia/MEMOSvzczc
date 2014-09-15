@@ -4,10 +4,10 @@
 /usr/bin/clear
 /usr/bin/dpkg --configure -a
 /bin/mkdir -p /var/log/acticia/patch/common
-/usr/bin/touch /var/log/acticia/patch/common/patchv0.1.log
-/usr/bin/touch /var/log/acticia/patch/common/patchv0.1.err
-lg=/var/log/acticia/patch/common/patchv0.1.log
-er=/var/log/acticia/patch/common/patchv0.1.err
+/usr/bin/touch /var/log/acticia/patch/common/patchv0.1.b.log
+/usr/bin/touch /var/log/acticia/patch/common/patchv0.1.b.err
+lg=/var/log/acticia/patch/common/patchv0.1.b.log
+er=/var/log/acticia/patch/common/patchv0.1.b.err
 # RENEW SOURCE LIST
 /bin/echo deb http://192.168.0.199:9999/debian wheezy main contrib non-free > /etc/apt/sources.list
 /bin/echo deb http://192.168.0.199:9999/debian wheezy-updates main contrib non-free >> /etc/apt/sources.list
@@ -37,6 +37,6 @@ read -p "Is your server running an internal SMTP and POP/IMAP service ?" yn
 /bin/tar -czf install_log.tar.gz -C / var/log 1>>$lg 2>>$er
 /usr/bin/mail -s "$HOSTNAME LOG" -a /root/install_log.tar.gz root < /dev/null
 /usr/bin/clear
-cat /var/log/acticia/patch/common/patchv0.1.log
+cat /var/log/acticia/patch/common/patchv0.1.b.log
 echo ========ERR========
-cat /var/log/acticia/patch/common/patchv0.1.err
+cat /var/log/acticia/patch/common/patchv0.1.b.err
