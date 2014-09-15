@@ -1,6 +1,6 @@
 #!/bin/bash
 # ONE LINER CALL :
-# wget wget --no-check-certificate ;  chmod u+x patchv0.1.sh ;  ./patchv0.1.sh
+# wget --no-check-certificate https://raw.githubusercontent.com/acticia/MEMOS/master/patchv0.1.sh;  chmod u+x patchv0.1.sh ;  ./patchv0.1.sh
 /usr/bin/clear
 /usr/bin/dpkg --configure -a
 /bin/mkdir -p /var/log/acticia/patch/common
