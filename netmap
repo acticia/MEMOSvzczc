@@ -4,7 +4,7 @@ BRESSE wan= lan=192.168.0.254 { TCP_SERVICES {}; UDP_SERVICES {}; TCP_NATPF {22:
     SEGUIN lan=192.168.0.52 { TCP_SERVICES { }; UDP_SERVICES {}} # Mécanicien ##2014/09/15
     LALANDE lan=192.168.0.54 { TCP_SERVICES { }; UDP_SERVICES {}} # Astronome
     TRESCA lan=192.168.0.56 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur Mécanicien
-    PONCELET lan=192.168.0.58 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre
+    PONCELET lan=192.168.0.58 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre ##2014/09/15
     LAGRANGE lan=192.168.0.60 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre
     BELANGER lan=192.168.0.62 { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien
     LAPLACE lan=192.168.0.64 { TCP_SERVICES { }; UDP_SERVICES {}} # Astronome Mathématicien
