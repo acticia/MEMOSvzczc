@@ -1,39 +1,47 @@
 BRESSE wan= lan=192.168.0.254 { TCP_SERVICES {}; UDP_SERVICES {}; TCP_NATPF {22:CUVIER:22}} # Mathématicien
   CUVIER lan=192.168.0.50 { TCP_SERVICES { 22:SSH }; UDP_SERVICES {}} # Naturaliste ##2014/09/14
-    APTCACHER lan=192.168.0.199 { TCP_SERVICES { 9999:APPROX }; UDP_SERVICES {}} # ##
+    APTCACHER lan=192.168.0.199 { TCP_SERVICES { 9999:APPROX }; UDP_SERVICES {}} # ##2014/09/15
     SEGUIN lan=192.168.0.52 { TCP_SERVICES { }; UDP_SERVICES {}} # Mécanicien ##2014/09/15
-    LALANDE lan=192.168.0.54 { TCP_SERVICES { }; UDP_SERVICES {}} # Astronome
-    TRESCA lan=192.168.0.56 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur Mécanicien
+    LAPLACE lan=192.168.0.54 { TCP_SERVICES { }; UDP_SERVICES {}} # Astronome Mathématicien
+    TRESCA lan=192.168.0.56 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur Mécanicien ##2014/09/15
     PONCELET lan=192.168.0.58 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre ##2014/09/15
-    LAGRANGE lan=192.168.0.60 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre
-    BELANGER lan=192.168.0.62 { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien
-    LAPLACE lan=192.168.0.64 { TCP_SERVICES { }; UDP_SERVICES {}} # Astronome Mathématicien
-    DULONG lan=192.168.0.66 { TCP_SERVICES { }; UDP_SERVICES {}} # Physicien
-    CHASLES lan=192.168.0.68 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre
+    LAGRANGE lan=192.168.0.60 { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre ##2014/09/15
+    BELANGER lan=192.168.0.62 { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien ##2014/09/15
     LAVOISIER lan=192.168.0.70 { TCP_SERVICES { }; UDP_SERVICES {}} # Chimiste
-    AMPERE lan=192.168.0.72 { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien Physicien
-    CHEVREUL lan=192.168.0.74 { TCP_SERVICES { }; UDP_SERVICES {}} # Chimiste
-    FLACHAT lan=192.168.0.76 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
-    NAVIER lan=192.168.0.78 { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien
-    LEGENDRE lan=192.168.0.80 { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien
-    CHAPTAL lan=192.168.0.82 { TCP_SERVICES { }; UDP_SERVICES {}} # Agronome Chimiste
-    JAMIN lan=192.168.0.84 { TCP_SERVICES { }; UDP_SERVICES {}} # Physicien
-    GAY-LUSSAC lan=192.168.0.86 { TCP_SERVICES { }; UDP_SERVICES {}} # Chimiste
-    FIZEAU lan=192.168.0.88 { TCP_SERVICES { }; UDP_SERVICES {}} # Physicien
-    SCHNEIDER lan=192.168.0.90 { TCP_SERVICES { }; UDP_SERVICES {}} # Industriel
-    LECHATELIER lan=192.168.0.92 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
-    BERTHIER lan=192.168.0.94 { TCP_SERVICES { }; UDP_SERVICES {}} # Minéralogiste
-    BARRAL lan=192.168.0.96 { TCP_SERVICES { }; UDP_SERVICES {}} # Agronome Chimiste Physicien
     DEDION lan=192.168.0.98 { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur ##2014/09/15
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+LALANDE lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Astronome    
+DULONG lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Physicien
+CHASLES lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Géomètre
+AMPERE lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien Physicien
+CHEVREUL lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Chimiste
+FLACHAT lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
+NAVIER lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien
+LEGENDRE lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Mathématicien
+CHAPTAL lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Agronome Chimiste
+JAMIN lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Physicien
+GAY-LUSSAC lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Chimiste
+FIZEAU lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Physicien
+SCHNEIDER lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Industriel
+LECHATELIER lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
+BERTHIER lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Minéralogiste
+BARRAL lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Agronome Chimiste Physicien
 GOUIN lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur Industriel
 JOUSSELIN lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Ingénieur
 BROCA lan= { TCP_SERVICES { }; UDP_SERVICES {}} # Chirurgien
